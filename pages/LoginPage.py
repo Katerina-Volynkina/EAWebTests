@@ -17,6 +17,5 @@ class LoginPageLocators:
     LOGIN_ICON_GP = (By.XPATH, '//*[@class ="i ic social-icon __s __gp"]')
     LOGIN_ICON_YANDEX = (By.XPATH, '//*[@class="i ic social-icon __s __yandex"]')
     LOGIN_ICON_APPLE = (By.XPATH, '//*[@class="i ic social-icon __s __apple"]')
-
 class LoginPageHelper(BasePage):
     pass

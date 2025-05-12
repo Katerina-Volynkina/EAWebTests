@@ -19,7 +19,6 @@ class HelpPageLocators:
     IMPORTANT_INFORMATION = (By.XPATH, '//a[contains(@href, "poleznaya-informaciya")]')
     ADVERTISEMENT_CABINET = (By.XPATH, '//a[contains(@href, "reklamnyi-kabinet")]')
 
-
 class HelpPageHelper(BasePage):
     def __init__(self, driver):
         self.driver = driver
